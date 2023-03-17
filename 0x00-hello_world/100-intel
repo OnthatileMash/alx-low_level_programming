@@ -1,3 +1,2 @@
 #!/bin/bash
-gcc $CFILE -o 3-main.s
 gcc -S -o 3-main.s $CFILE
