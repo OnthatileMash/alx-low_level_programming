@@ -19,7 +19,7 @@ int main(void)
 	printf("%d", n);
 	if (n > 5)
 	{
-		printf(" and is gretaer than 5\n");
+		printf(" and is greater than 5\n");
 	}
 	else
 	{
