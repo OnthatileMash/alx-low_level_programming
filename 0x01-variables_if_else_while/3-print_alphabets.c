@@ -14,6 +14,11 @@ int main(void)
 		putchar((char) a);
 	}
 
+	for (a = 65; a <= 90; a++)
+	{
+		putchar((char) a);
+	}
+
 	putchar('\n');
 	return (0);
 }

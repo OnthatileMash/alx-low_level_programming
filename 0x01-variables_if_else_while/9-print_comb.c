@@ -9,9 +9,15 @@ int main(void)
 {
 	int a;
 
-	for (a = 97; a <= 122; a++)
+	for (a = 48; a <= 57; a++)
 	{
 		putchar((char) a);
+
+		if (a < 57)
+		{
+			putchar(',');
+			putchar(' ');
+		}
 	}
 
 	putchar('\n');

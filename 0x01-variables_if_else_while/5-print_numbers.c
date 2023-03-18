@@ -5,15 +5,10 @@
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	int a;
+	printf("0123456789\n");
 
-	for (a = 97; a <= 122; a++)
-	{
-		putchar((char) a);
-	}
-
-	putchar('\n');
 	return (0);
 }
