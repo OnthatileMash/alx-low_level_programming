@@ -12,9 +12,9 @@ int main(void)
 	for (a = 48; a <= 55; a++)
 	{
 		b = 49 + counter1;
+		counter2 = counter1;
 		for (; b <= 56; b++)
 		{
-			counter2 = counter1;
 			c = 50 + counter2;
 			for (; c <= 57; c++)
 			{
