@@ -22,6 +22,7 @@ int main(void)
 				{
 					putchar((char) a);
 					putchar((char) b);
+					putchar(' ');
 					putchar((char) c);
 					putchar((char) d);
 
