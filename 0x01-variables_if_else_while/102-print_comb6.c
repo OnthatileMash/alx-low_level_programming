@@ -7,26 +7,37 @@
  */
 int main(void)
 {
-	int a, b, c = 48, d = 48;
-	int m;
+	int a, b, c, d = 49;
+	int count = 0;
+	int temp, temp1;
 
 	for (a = 48; a <= 57; a++)
 	{
-		c = a;
 		for (b = 48; b <= 57; b++)
 		{
-			d = b + 1;
+			if (b == 57)
+				count++;
+
+			c = 48 + count;
+			printf("%c\n", (char) b);
+			d = 48;
+
+			char numC = (char) c;
+			char numD = (char) d
+			temp = (int) numC;
+			temp1 = (int) numD;
+
+			printf("\n %d \n %d \n", temp, temp1);
 			for (; c <= 57; c++)
 			{
 				for (; d <= 57; d++)
 				{
 					putchar((char) a);
 					putchar((char) b);
+					putchar(' ');
 					putchar((char) c);
 					putchar((char) d);
-
-					m = a * 1000 + b * 100 + c * 10 + d;
-					if (!(m == 63227))
+					if (a < 57)
 					{
 						putchar(',');
 						putchar(' ');
@@ -34,7 +45,6 @@ int main(void)
 				}
 				d = 48;
 			}
-			c = a;
 		}
 	}
 
