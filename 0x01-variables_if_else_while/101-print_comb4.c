@@ -14,7 +14,7 @@ int main(void)
 		b = 49 + counter1;
 		for (; b <= 56; b++)
 		{
-			counter2 += counter1;
+			counter2 = counter1;
 			c = 50 + counter2;
 			for (; c <= 57; c++)
 			{
@@ -30,7 +30,6 @@ int main(void)
 			counter2++;
 
 		}
-		counter2 = 0;
 		counter1++;
 	}
 
