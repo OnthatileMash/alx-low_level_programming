@@ -6,6 +6,7 @@
  * @y: int type number
  * Return: result of addition
  */
+
 int add(int x, int y)
 {
 	int solve = (x + y);
