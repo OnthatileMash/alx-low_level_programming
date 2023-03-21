@@ -3,7 +3,7 @@
 /**
  * _isalpha - checks if character is an alphabet
  * @c: char type letter
- * Return: 1 (an alphabet) or 0 (not an alphabet)
+ * Return: 1 (an alphabet), or 0 (not an alphabet)
  */
 
 int _isalpha(int c)
