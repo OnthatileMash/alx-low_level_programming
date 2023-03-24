@@ -2,8 +2,7 @@
 
 /**
  * print_most_numbers - prints the numbers, from 0 to 9.
- * do not prints 2 & 4.
- *
+ * does not prints 2 & 4.
  * Reutrn: Its a void
  */
 
