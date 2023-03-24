@@ -22,9 +22,9 @@ void more_numbers(void)
 
 			_putchar((char) i);
 
-			if (count >= 9)
+			if (count > 9)
 			{
-				i = 0;
+				i = 1;
 				_putchar((char) j);
 				j++;
 			}
