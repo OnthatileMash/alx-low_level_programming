@@ -12,7 +12,7 @@ void more_numbers(void)
 	int count;
 	int a;
 
-	for (a = 0; a <= 9; i++)
+	for (a = 0; a <= 9; a++)
 	{
 		count = 0;
 		i = 48;
@@ -24,12 +24,17 @@ void more_numbers(void)
 
 			if (count > 9)
 			{
-				i = 1;
+
 				_putchar((char) j);
 				j++;
 			}
 			else
-				i++;
+			{
+				if (i != 57)
+					i++;
+				else
+					i = 49;
+			}
 			count++;
 		}
 		_putchar('\n');
