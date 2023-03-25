@@ -12,7 +12,7 @@ void print_triangle(int size)
 	int hash;
 	int count;
 
-	if (size >= 0)
+	if (size > 0)
 		for (i = 0; i < size; i++)
 		{
 			count = size - i;
