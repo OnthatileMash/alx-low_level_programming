@@ -11,7 +11,7 @@ void print_square(int size)
 	int a, b;
 
 	if (size == 0)
-		_puuthcar('\n');
+		_puthcar('\n');
 	else
 	{
 		for (a = 1; a <= size; a++)
