@@ -30,4 +30,6 @@ void fizz_buzz(void)
 			}
 		}
 	}
+
+	printf("\n");
 }
