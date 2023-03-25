@@ -18,3 +18,4 @@ void print_most_numbers(void);
 void more_numbers(void);
 void print_square(int size);
 void fizz_buzz(void);
+void print_triangle(int size);
