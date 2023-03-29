@@ -13,7 +13,7 @@ void puts_half(char *str)
 	const char *ptr = str;
 
 	/* Determine length of the string */
-	while (*ptr != '\0') 
+	while (*ptr != '\0')
 	{
 		length++;
 		ptr++;
@@ -21,7 +21,7 @@ void puts_half(char *str)
 
 	/* Print half of the string */
 	ptr = str;
-	for (i = 0; i <= length; i++) 
+	for (i = 0; i <= length; i++)
 	{
 		if (length / 2 <= i)
 		{
