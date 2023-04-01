@@ -2,9 +2,9 @@
 
 /**
  * _strcat - function that concatenates two strings.
- * @*dest: type char pointer
- * @*src: type char pointer
- * return: char pointer
+ * @dest: type char pointer
+ * @src: type char pointer
+ * Return: char pointer
  */
 
 char *_strcat(char *dest, char *src)
