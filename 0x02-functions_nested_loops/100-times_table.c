@@ -26,7 +26,7 @@ void print_times_table(int n)
 					_putchar(' ');
 					_putchar(' ');
 					_putchar(' ');
-					_putchar((char) (48 + sum));
+					_putchar(sum + '0');;
 				}
 				else 
 				{
@@ -35,16 +35,16 @@ void print_times_table(int n)
 						_putchar(',');
 						_putchar(' ');
 						_putchar(' ');
-						_putchar((char) (48 + (sum / 10)));
-						_putchar((char) (48 + (sum % 10)));
+						_putchar((sum / 10) + '0');
+						_putchar((sum % 10) + '0');
 					}
 					else
 					{
 						_putchar(',');
 						_putchar(' ');
-						_putchar((char) (48 + (sum / 100)));
-						_putchar((char) (48 + (sum / 10 % 10)));
- 						_putchar((char) (48 + (sum % 10)));
+						_putchar((sum / 100) + '0');
+						_putchar((sum / 10 % 10) + '0');
+ 						_putchar((sum % 10) + '0');
 					}
 				}
 			}
