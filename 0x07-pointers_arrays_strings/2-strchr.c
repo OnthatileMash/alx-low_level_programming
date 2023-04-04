@@ -9,21 +9,14 @@
 
 char *_strchr(char *s, char c)
 {
-	char *arr;
-	bool flag = false;
-	int i;
+	unsigned int i;
 
 	for (i = 0; *(s + i) != '\0'; i++)
-	{
 		if (*(s + i) == c)
-			flag = true;
+			return (s + i);
 
-		if (flag)
-			arr = (s + 1);
-	}
-
-	if (flag)
-		return (arr);
+	if (*(s + i) == c)
+		return (s + i);
 	else
 		return ('\0');
 }
