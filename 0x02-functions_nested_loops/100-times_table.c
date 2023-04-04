@@ -15,12 +15,13 @@ void print_times_table(int n)
 	{
 		for (t = 0; t <= n; t++)
 		{
-			_putchar('0');
 			for (i = 1; i <= n; i++) 
 			{
 				sum = t * i;
 
-				if (sum <= 9)
+				if (sum == 0)
+					_putchar(sum + '0');
+				else if (sum <= 9)
 				{
 					_putchar(',');
 					_putchar(' ');
