@@ -6,16 +6,14 @@
  *
  * Return: Always 0.
  */
+
 int main(void)
 {
-    char *s = "hello";
-    char *f;
+    char *s0 = "Bob Dylan";
+    char *s1 = "Robert Allen";
 
-    f = _strchr(s, 'l');
-
-    if (f != NULL)
-    {
-        printf("%s\n", f);
-    }
+    printf("%s, %s\n", s0, s1);
+    set_string(&s1, s0);
+    printf("%s, %s\n", s0, s1);
     return (0);
 }
